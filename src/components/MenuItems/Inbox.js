@@ -10,7 +10,6 @@ import FlagIcon from '@mui/icons-material/Flag';
 import MailIcon from '@mui/icons-material/Mail';
 import ArchiveIcon from '@mui/icons-material/Archive';
 import { DataGrid } from '@mui/x-data-grid';
-import EmojiFlagsIcon from '@mui/icons-material/EmojiFlags';
 
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
