@@ -1,0 +1,51 @@
+.css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #2604ad;
+}
+.css-1v5z4dq-MuiPaper-root-MuiCard-root {
+    width: 31%;
+    height: 280px;
+    margin: 1%;
+    float: left;
+}
+.css-1wcaknn {
+    padding: 0px;
+}
+.css-1orzy9s {
+    border: 1px solid #ddd;
+}
+.css-w4z10b-MuiStack-root {
+    display: inline-block;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.title{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+}
+.price{
+    margin-bottom: 5px !important;
+    float: left;
+}
+.addCart{
+    width: 10%;
+    float: right;
+}
+.rating{
+    width: 90%;
+    float: left;
+    margin-bottom: 0px;
+}
+.css-ucqp6z-MuiAvatar-root{
+    display: contents !important;
+}
+.css-1pqm26d-MuiAvatar-img {
+    width: 65% !important;
+    height: 70% !important;
+    margin: auto;
+}
