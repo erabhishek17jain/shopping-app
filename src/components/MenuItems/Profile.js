@@ -11,7 +11,7 @@ export default function Profile() {
         <Grid container spacing={2}>
             <Grid item xs={4} className="tc">
                 <Stack direction="row" spacing={1}>
-                    <Avatar alt="Cindy Baker" sx={{ width: 170, height: 180 }} src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" />
+                    <Avatar className='Avatar-img' alt="Cindy Baker" sx={{ width: 160, height: 160 }} src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" />
                 </Stack>
                 <Button variant="contained">Upload Image</Button>
             </Grid>

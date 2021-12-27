@@ -1,0 +1,12 @@
+version: "20.10.11"
+services:
+  app:
+    build:
+      context: .
+    volumes:
+      - .:/shopping-app
+    ports:
+      - 3000:3000
+    image: app:react
+    container_name: react_container
+    command: npm start

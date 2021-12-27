@@ -1,7 +1,7 @@
 .css-aym9vq-MuiButtonBase-root-MuiTab-root.Mui-selected {
     color: #2604ad;
 }
-.css-1v5z4dq-MuiPaper-root-MuiCard-root {
+.cardNew {
     width: 31%;
     height: 280px;
     margin: 1%;
@@ -44,8 +44,14 @@
 .css-ucqp6z-MuiAvatar-root{
     display: contents !important;
 }
-.css-1pqm26d-MuiAvatar-img {
+.Avatar-img {
     width: 65% !important;
     height: 70% !important;
     margin: auto;
+}
+.f12{
+    font-size: 12px !important;
+}
+.f10{
+    color: gray !important;
 }

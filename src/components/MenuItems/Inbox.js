@@ -88,11 +88,11 @@ export default function Inbox() {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={3}>
-                <Grid item xs={4}>
-                    <Button variant="contained">New Message <MailIcon /></Button>
+                <Grid item xs={3}>
+                    <Button className='f12' variant="contained">New Message <MailIcon /></Button>
                 </Grid>
                 <Grid item xs={4}>
-                    <Search>
+                    <Search className='f12'>
                         <SearchIconWrapper>
                             <SearchIcon />
                         </SearchIconWrapper>
@@ -102,10 +102,10 @@ export default function Inbox() {
                         />
                     </Search>
                 </Grid>
-                <Grid item xs={4} justifyContent='right'>
-                    <Button variant="text">Delete <DeleteIcon /></Button>
-                    <Button variant="text">Flag <FlagIcon /></Button>
-                    <Button variant="text">Archive <ArchiveIcon /></Button>
+                <Grid item xs={5} justifyContent='right'>
+                    <Button variant="text" className='f12 f10'>Delete <DeleteIcon sx={{ fontSize: 12 }}/></Button>
+                    <Button variant="text" className='f12 f10'>Flag <FlagIcon sx={{ fontSize: 12 }}/></Button>
+                    <Button variant="text" className='f12 f10'>Archive <ArchiveIcon sx={{ fontSize: 12 }}/></Button>
                 </Grid>
             </Grid>
             <div style={{ height: 500, width: '100%', marginTop: '10px' }}>

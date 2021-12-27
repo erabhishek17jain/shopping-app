@@ -96,11 +96,11 @@ export default function Shop() {
         <>
             <Grid container spacing={3}>
                 <Grid item xs={4}>
-                    <Button variant={sortBy === "priceLow" ? "outlined" : "text"} onClick={() => handleSort('priceLow')}>Low Price</Button>
-                    <Button variant={sortBy === "priceHigh" ? "outlined" : "text"} onClick={() => handleSort('priceHigh')}>High Price</Button>
+                    <Button className='f12' variant={sortBy === "priceLow" ? "outlined" : "text"} onClick={() => handleSort('priceLow')}>Low Price</Button>
+                    <Button className='f12' variant={sortBy === "priceHigh" ? "outlined" : "text"} onClick={() => handleSort('priceHigh')}>High Price</Button>
                 </Grid>
                 <Grid item xs={4}>
-                    <Search>
+                    <Search className='f12'>
                         <SearchIconWrapper>
                             <SearchIcon />
                         </SearchIconWrapper>
@@ -111,11 +111,11 @@ export default function Shop() {
                     </Search>
                 </Grid>
                 <Grid item xs={4} justifyContent='right'>
-                    <Button variant="contained">Proceed Order <ShoppingCartIcon /></Button>
+                    <Button variant="contained" className='f12'>Proceed Order <ShoppingCartIcon /></Button>
                 </Grid>
             </Grid>
             {products && products.length > 0 && products.map((item) =>
-                <Card variant="outlined">
+                <Card variant="outlined" className="cardNew">
                     <CardContent>
                         <img
                             src={item.image}
